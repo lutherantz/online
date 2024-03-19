@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+*::selection{
+    background: #ffffff46;
+}
+
+body{
+    background: #000;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top{
+    gap: 15px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top img{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+
+.top p{
+    opacity: 0.8;
+    color: transparent;
+    font-weight: 500;
+    background: linear-gradient(#f1f1f1, #ccc3c3);
+    background-clip: text;
+}
+
+.socials{
+    gap: 15px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    overflow-y: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social{
+    width: 100%;
+    display: flex;
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #222222;
+    justify-content: space-between;
+}
+
+.social img{
+    width: 40px;
+    border-radius: 10px;
+}
+
+.text{
+    padding: 20px;
+}
+
+.text p{
+    opacity: 0.8;
+    color: transparent;
+    font-weight: 500;
+    background: linear-gradient(#f1f1f1, #ccc3c3);
+    background-clip: text;
+}
